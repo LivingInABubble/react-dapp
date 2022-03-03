@@ -23,12 +23,12 @@ module.exports = {
   },
   networks: {
     hardhat: {
-      // chainId: 1337
+      chainId: 1337
     },
-    ropsten: {
-      url: "https://eth-ropsten.alchemyapi.io/v2/l_FWaHhe2QFTgu0bZDzr1NWH07H5ZNZJ",
-      accounts: [`0xcec445819b631e313f0919b7419fddb6535df3c188fb916536da94c08ca248c1`]
-    }
+    // ropsten: {
+    //   url: "https://eth-ropsten.alchemyapi.io/v2/l_FWaHhe2QFTgu0bZDzr1NWH07H5ZNZJ",
+    //   accounts: [`0xcec445819b631e313f0919b7419fddb6535df3c188fb916536da94c08ca248c1`]
+    // }
   },
   solidity: "0.8.4",
 };
